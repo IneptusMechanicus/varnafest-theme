@@ -91,6 +91,7 @@ body {
 	margin: 0;
     font-family: 'russo' !important;
     overflow-x: hidden;
+    overflow-y: scroll;
 }
 
 header {
