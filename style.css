@@ -1,6 +1,6 @@
 /*!
 Theme Name: Varnafest
-Theme URI:
+Github Theme URI: https://github.com/Reaper9806/varnafest-theme
 Author: Ivo Gerginov
 Based on: Underscores.me
 Author URI: 
@@ -227,8 +227,8 @@ sup {
  */
 img {
 	border-style: none;
-	height: 100%
-	width:auto;
+	width: 100%;
+	height: auto;
 }
 
 /* Forms
@@ -626,6 +626,11 @@ template {
 	margin: 0 auto;
 }
 
+.slider-main {
+	margin-top: 2%;
+	margin-bottom: 5%;
+}
+
 [aria-hidden="true"] img{
 	display: none;
 }
@@ -636,6 +641,7 @@ template {
 	background-color: #f9ac79f0;
 	text-align: center;
 	font-family: 'russo' !important;
+	margin-right: 1%;
 }
 
 #menu-festivalinfo {
@@ -663,6 +669,7 @@ template {
 	outline: 1px solid #ec2126;
 	outline-offset: -10px;
 	padding: 20px;
+	margin-right: 0.5%;
 }
 
 .regulations-title {
@@ -671,11 +678,12 @@ template {
 
 /* Team Section */
 
-.front-page-team-root, .wave-breaker {
+
+.wave-breaker img{
 	width: 100vw;
-	height: auto;
-	position: relative;
-	margin: 0px;
+	height:auto;
+	margin-top: 2%;
+	margin-bottom: -1%;
 }
 
 /*  MAIN BODY STYLE CLOSE
@@ -684,4 +692,62 @@ template {
 .site-footer {
     background-color: #363636;
     clear: both;
+}
+
+
+/* PARTNERS PAGE*/
+
+.partners-images {
+	margin: 15%	
+}
+
+
+/* TEAM STYLE */
+
+/* 1. Homepage Alterations */
+.home-team {
+	background-color: #114b82;
+}
+
+.home-team .wp-block-columns {
+	padding:1%;
+}
+
+.home-team .team-card {
+	padding: 2%;
+}
+
+.team-home-title {
+	color: #fff;
+	letter-spacing: 2px;
+	font-size: 42px;
+	text-align: center;
+	background-color: #114b82;
+	margin:0px;
+}
+
+/* 2. Main Cards */
+
+.team-card {
+	background-color: #eee;
+	padding-left: 2%;
+	margin-left: 5%;
+}
+
+.team-card figure{
+	height:auto;
+	margin-left: 1.5em;
+}
+
+.team-card h3 {
+	margin-left: 1.2em;
+}
+
+.team-card ul {
+	margin-left: -1.1em
+}
+
+.team-card img{
+	width: 100%;
+	height: auto;
 }
