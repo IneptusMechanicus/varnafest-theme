@@ -682,6 +682,7 @@ template {
 	width: 100vw;
 	height: auto;
 	position: relative;
+	overflow: hidden;
 	margin: 0px;
 }
 
