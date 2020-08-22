@@ -679,7 +679,7 @@ template {
 /* Team Section */
 
 .front-page-team-root, .wave-breaker {
-	width: 100vw;
+	width: auto;
 	height:auto;
 	position: relative;
 	overflow: hidden;
