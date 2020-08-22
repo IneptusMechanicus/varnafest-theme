@@ -678,6 +678,12 @@ template {
 
 /* Team Section */
 
+.front-page-team-root, .wave-breaker {
+	width: 100vw;
+	height: auto;
+	position: relative;
+	margin: 0px;
+}
 
 .wave-breaker img{
 	width: 100vw;
