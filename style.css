@@ -90,7 +90,7 @@ html {
 body {
 	margin: 0;
     font-family: 'russo' !important;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 header {
