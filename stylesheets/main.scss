@@ -1,0 +1,40 @@
+@font-face {
+  font-family: russo;
+  src: url(Russo_One.ttf);
+}
+
+@font-face {
+  font-family: comf-reg;
+  src: url(Comfortaa-Regular.ttf);
+}
+
+@font-face {
+  font-family: comf-light;
+  src: url(Comfortaa-Light.ttf);
+}
+
+@font-face {
+  font-family: comf-bold;
+  src: url(Comfortaa-Bold.ttf);
+}
+
+body {
+    margin: 0px;
+    font-family: 'comf-reg' !important;
+
+}
+
+.skip-link {
+    display: none;
+}
+
+img {
+    width:100%;
+    height:auto;
+}
+
+@import "header";
+@import "page";
+@import "main-page";
+@import "team";
+@import "footer";

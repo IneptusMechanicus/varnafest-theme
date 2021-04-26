@@ -9,38 +9,29 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
- * @package Varnafest
+ * @package varnafest
  */
 
 get_header();
 ?>
 
-<div class="main-content-wrapper">
-	
-	<?php get_template_part( 'templates/sidebars/sidebar', 'left' ); ?>
-
-	<div id="primary" class="site-main-page">
+	<main id="primary" class="site-main">
 
 		<?php
 		while ( have_posts() ) :
 			the_post();
 
-			get_template_part( 'templates/content/content', 'page' );
+			get_template_part( 'template-parts/content', 'page' );
 
 			// If comments are open or we have at least one comment, load up the comment template.
-			/*if ( comments_open() || get_comments_number() ) :
+			if ( comments_open() || get_comments_number() ) :
 				comments_template();
-			endif;*/
+			endif;
 
 		endwhile; // End of the loop.
 		?>
 
-	</div><!-- #main -->
-
-	<?php get_template_part( 'templates/sidebars/sidebar', 'right' ); ?>
-
-</div>
+	</main><!-- #main -->
 <?php
-
-
+get_sidebar();
 get_footer();

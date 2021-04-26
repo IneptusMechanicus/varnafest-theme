@@ -1,10 +1,10 @@
 <?php
 /**
- * Varnafest functions and definitions
+ * varnafest functions and definitions
  *
  * @link https://developer.wordpress.org/themes/basics/theme-functions/
  *
- * @package Varnafest
+ * @package varnafest
  */
 
 if ( ! defined( '_S_VERSION' ) ) {
@@ -24,7 +24,7 @@ if ( ! function_exists( 'varnafest_setup' ) ) :
 		/*
 		 * Make theme available for translation.
 		 * Translations can be filed in the /languages/ directory.
-		 * If you're building a theme based on Varnafest, use a find and replace
+		 * If you're building a theme based on varnafest, use a find and replace
 		 * to change 'varnafest' to the name of your theme in all the template files.
 		 */
 		load_theme_textdomain( 'varnafest', get_template_directory() . '/languages' );
@@ -112,9 +112,6 @@ add_action( 'after_setup_theme', 'varnafest_setup' );
  * @global int $content_width
  */
 function varnafest_content_width() {
-	// This variable is intended to be overruled from themes.
-	// Open WPCS issue: {@link https://github.com/WordPress-Coding-Standards/WordPress-Coding-Standards/issues/1043}.
-	// phpcs:ignore WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound
 	$GLOBALS['content_width'] = apply_filters( 'varnafest_content_width', 640 );
 }
 add_action( 'after_setup_theme', 'varnafest_content_width', 0 );
@@ -125,25 +122,17 @@ add_action( 'after_setup_theme', 'varnafest_content_width', 0 );
  * @link https://developer.wordpress.org/themes/functionality/sidebars/#registering-a-sidebar
  */
 function varnafest_widgets_init() {
-	register_sidebar( array(
-		'name'          => __( 'Sidebar Right', 'varnafest' ),
-		'id'            => 'sidebar-right',
-		'description'   => __( 'Add widgets here to appear in your sidebar.', 'varnafest' ),
-		'before_widget' => '<div id="%1$s" class="varnafest-widget %2$s">',
-		'after_widget'  => '</div>',
-		'before_title'  => '<div class="widget-title"><h2>',
-		'after_title'   => '</h2></div>',
-	) );
-
-	register_sidebar( array(
-		'name'          => __( 'Sidebar Left', 'varnafest' ),
-		'id'            => 'sidebar-left',
-		'description'   => __( 'Add widgets here to appear in your sidebar.', 'varnafest' ),
-		'before_widget' => '<div id="%1$s" class="varnafest-widget %2$s">',
-		'after_widget'  => '</div>',
-		'before_title'  => '<div class="widget-title"><h2>',
-		'after_title'   => '</h2></div>',
-	) );
+	register_sidebar(
+		array(
+			'name'          => esc_html__( 'Sidebar', 'varnafest' ),
+			'id'            => 'sidebar-1',
+			'description'   => esc_html__( 'Add widgets here.', 'varnafest' ),
+			'before_widget' => '<section id="%1$s" class="widget %2$s">',
+			'after_widget'  => '</section>',
+			'before_title'  => '<h2 class="widget-title">',
+			'after_title'   => '</h2>',
+		)
+	);
 }
 add_action( 'widgets_init', 'varnafest_widgets_init' );
 
@@ -161,6 +150,42 @@ function varnafest_scripts() {
 	}
 }
 add_action( 'wp_enqueue_scripts', 'varnafest_scripts' );
+
+function register_widget_areas() {
+
+  register_sidebar( array(
+	'name'          => 'Animation Festivals',
+	'id'            => 'festivals-list',
+	'description'   => 'List 1',
+	'before_widget' => '<section class="footer-area footer-one">',
+	'after_widget'  => '</section>',
+	'before_title'  => '<h4>',
+	'after_title'   => '</h4>',
+  ));
+
+  register_sidebar( array(
+	'name'          => 'Festival Archive',
+	'id'            => 'archives-list',
+	'description'   => 'List 2',
+	'before_widget' => '<section class="footer-area footer-two">',
+	'after_widget'  => '</section>',
+	'before_title'  => '<h4>',
+	'after_title'   => '</h4>',
+  ));
+
+  register_sidebar( array(
+	'name'          => 'WFAF Information',
+	'id'            => 'info-list',
+	'description'   => 'List 3',
+	'before_widget' => '<section class="footer-area footer-three">',
+	'after_widget'  => '</section>',
+	'before_title'  => '<h4>',
+	'after_title'   => '</h4>',
+  ));
+
+}
+
+add_action( 'widgets_init', 'register_widget_areas' );
 
 /**
  * Implement the Custom Header feature.
@@ -187,12 +212,4 @@ require get_template_directory() . '/inc/customizer.php';
  */
 if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
-}
-
-add_action('after_setup_theme', 'remove_admin_bar');
- 
-function remove_admin_bar() {
-if (!current_user_can('administrator') && !is_admin()) {
-  show_admin_bar(false);
-}
 }

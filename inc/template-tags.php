@@ -4,7 +4,7 @@
  *
  * Eventually, some of the functionality here could be replaced by core features.
  *
- * @package Varnafest
+ * @package varnafest
  */
 
 if ( ! function_exists( 'varnafest_posted_on' ) ) :

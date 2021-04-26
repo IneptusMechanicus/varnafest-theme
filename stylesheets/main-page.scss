@@ -1,0 +1,322 @@
+#post-49 {
+    background: none;
+    width: 100%;
+    margin: 0px;
+    scrollbar-width: none;
+    overflow-x: hidden;
+
+    header {
+        background: none;
+
+        h1 {
+            display: none;
+        }
+    }
+
+
+
+    .entry-header {
+        padding: 0px;
+    }
+
+    .entry-content {
+        margin:0px;
+        padding: 0px;
+        margin-left: 10vw;
+        margin-right: 10vw;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .main-sign, .side-giff {
+        display: inline;
+
+        img {
+            width: 60vw;
+            height: auto;
+        }
+    }
+
+    .fcc-sign {
+        img {
+            width: 90%;
+            height: auto;
+            margin-left: 5%;
+            margin-right: 5%;
+        }
+    }
+
+    .wp-block-group__inner-container {
+        width: 100%;
+        height: 100%;
+    }
+
+    .main-slider {
+        display: block;
+        overflow-x: auto;
+        overflow-y: hidden;
+        white-space: nowrap;
+        height: fit-content;
+        width: auto;
+        scroll-snap-align: center;
+
+        p {
+            text-align: center;
+        }
+
+        a {
+            text-decoration: none;
+            color: #ffffff;
+            background-color: #de1c00;
+            font-weight: bolder;
+            padding: 4%;
+            border-radius: 6px;
+        }
+
+        .wp-block-group__inner-container {
+            justify-content: center;
+            margin-bottom: 6px;
+        }
+    }
+
+    ::-webkit-scrollbar {
+        height: 1em;
+    }
+
+    ::-webkit-scrollbar-track {
+      background: rgba(0, 0, 0, 0);
+    }
+
+    ::-webkit-scrollbar-thumb {
+        width: 0.5em;
+        background: rgba(0, 0, 0, 0.4);
+    }
+
+    ::-webkit-scrollbar-button {
+        display: block;
+    }
+
+    .film-strip {
+        display: inline-block;
+        height: 18em;
+        width: auto;
+        margin: 0px;
+
+        img {
+            height: 18em;
+        }
+    }
+
+    .slider-tile {
+        display: inline-flex;
+        margin: 0px;
+        margin-right: -5px;
+        width: 13em;
+        height: auto;
+        background-image: url('theme-images/film-base.png');
+        background-size:cover;
+        background-repeat-x: no-repeat;
+        background-repeat-y: no-repeat;
+        z-index: 5;
+
+        .wp-block-group__inner-container {
+            background-color: #b2f6b2;
+            margin-left: 1em;
+            margin-right: 1em;
+            margin-top: 2em;
+            margin-bottom: 2em;
+            border-radius: 9px;
+        }
+
+        .wp-block-image {
+            margin: 0px;
+        }
+
+        img {
+            width: 90%;
+            height: auto;
+            margin-left: 5%;
+            margin-right: 5%;
+            margin-top: 5%;
+        }
+    }
+
+    .regulations {
+        margin: 0px;
+
+        img {
+            width:60%;
+            height: auto;
+            margin-left: 20%;
+            margin-right: 20%;
+            margin-top: -13%;
+            z-index: 0;
+        }
+    }
+
+    .regulations-link {
+        position: relative;
+        margin-top: -15%;
+        z-index: 20;
+        text-align: center;
+
+        p {
+            text-align: center;
+            justify-content: center;
+        }
+
+        a {
+            text-decoration: none;
+            color: #ffffff;
+            background-color: #de1c00;
+            font-weight: bolder;
+            padding: 2%;
+            border-radius: 7px;
+            font-size: 100%;
+        }
+    }
+
+    .wizard-giff {
+        position: relative;
+        margin: 0px;
+        //margin-right: 5%;
+        z-index: 0;
+        img {
+            width: 90%;
+            height: auto;
+            margin-top: -12%;
+        }
+    }
+
+    .team-card {
+        background-color: #f1fff1;
+    }
+
+    .insert-page {
+        width: 100vw;
+        height: auto;
+        background-color:#16524b;
+        margin-left: -13%;
+        padding-top: 7%;
+        margin-top: -6%;
+        padding-bottom: 8%;
+    }
+
+    @media only screen and (min-width: 768px) {
+
+        .main-sign {
+            float: left;
+            margin: 0px;
+
+            img {
+                height: auto;
+                width: 45vw;
+            }
+        }
+
+        .side-giff {
+            float: right;
+            margin: 0px;
+            margin-right: 5%;
+            margin-top: 2%;
+
+            img {
+                height: auto;
+                width: 17vw;
+            }
+        }
+
+        .slider-tile {
+            width: 16em;
+            height: auto;
+            margin-right: -8px;
+
+            .wp-block-group__inner-container {
+                margin-left: 1.5em;
+                margin-right: 1.5em;
+                margin-top: 2.5em;
+                margin-bottom: 2.5em;
+            }
+        }
+    }
+
+    @media only screen and (min-width: 1080px) {
+        .main-sign {
+            float: left;
+            margin-left: 4%;
+
+            img {
+                width: 46vw;
+                height: auto;
+            }
+        }
+
+        .side-giff {
+            float: right;
+            margin-right: 8%;
+            img {
+                height: auto;
+                width: 22vw;
+            }
+        }
+
+        .main-slider {
+            width: 90%;
+            height: auto;
+            margin-left: 5%;
+            margin-right: 5%;
+            .wp-block-group__inner-container {
+                justify-content: center;
+            }
+        }
+
+        .slider-tile {
+            width: 18em;
+            height: auto;
+            margin-right: -15px;
+
+            .wp-block-group__inner-container {
+                margin-left: 2em;
+                margin-right: 2em;
+                margin-top: 3em;
+                margin-bottom: 3em;
+            }
+        }
+
+        .regulations-link {
+            a {
+                font-size: 24px;
+            }
+        }
+    }
+
+    @media only screen and (min-width: 1575px){
+
+        .main-slider {
+            .wp-block-group__inner-container {
+                margin-left: 1px
+            }
+        }
+
+        ::-webkit-scrollbar {
+            display: none;
+        }
+
+        .slider-tile {
+            width: 25%;
+            height: auto;
+            margin: -5px;
+
+            .wp-block-group__inner-container {
+                width:90%;
+                margin-left: 5%;
+                margin-right: 5%;
+            }
+        }
+
+        .insert-page {
+            margin-left: -13%;
+            padding-left: 2%;
+        }
+    }
+}

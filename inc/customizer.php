@@ -1,8 +1,8 @@
 <?php
 /**
- * Varnafest Theme Customizer
+ * varnafest Theme Customizer
  *
- * @package Varnafest
+ * @package varnafest
  */
 
 /**
@@ -56,6 +56,6 @@ function varnafest_customize_partial_blogdescription() {
  * Binds JS handlers to make Theme Customizer preview reload changes asynchronously.
  */
 function varnafest_customize_preview_js() {
-	wp_enqueue_script( 'varnafest-customizer', get_template_directory_uri() . '/js/customizer.js', array( 'customize-preview' ), '20151215', true );
+	wp_enqueue_script( 'varnafest-customizer', get_template_directory_uri() . '/js/customizer.js', array( 'customize-preview' ), _S_VERSION, true );
 }
 add_action( 'customize_preview_init', 'varnafest_customize_preview_js' );

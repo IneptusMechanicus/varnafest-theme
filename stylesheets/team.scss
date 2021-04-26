@@ -1,0 +1,56 @@
+.team-card {
+    display: inline-grid;
+    background-color: #eeeeee;
+    width: 40%;
+    height: 80%;
+    padding: 1%;
+    margin: 3%;
+    font-size: 0;
+
+    .wp-block-image {
+        margin: 0%;
+    }
+
+    h4 {
+        margin: 0px;
+        margin-left: 5%;
+        font-size: 14px;
+    }
+
+    img {
+        width: 90%;
+        height: auto;
+        margin: 5%;
+    }
+
+    ul {
+        padding: 0px;
+        margin: 0px;
+        padding-left: 14%;
+        font-size: 10px;
+        margin-top: 6%;
+
+        li {
+            padding:0px;
+            margin: 0px;
+        }
+    }
+
+    @media only screen and (min-width: 768px) {
+        width: 21%;
+        height: auto;
+        margin: 1.5%;
+    }
+
+    @media only screen and (min-width: 1080px) {
+
+        h4 {
+            font-size: 18px;
+        }
+
+        ul {
+            font-size: 14px;
+        }
+    }
+
+}

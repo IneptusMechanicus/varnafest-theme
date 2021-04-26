@@ -1,0 +1,55 @@
+.type-page {
+    position: relative;
+    background-color: #f1fff1;
+    width: 80%;
+    margin: 1em;
+
+        h1 {
+            font-family: 'russo';
+            font-weight: bold;
+            color: #503656;
+            text-align: center;
+        }
+
+        .entry-header {
+            background-color: #f1fff1;
+            padding: 1em;
+
+        }
+
+
+
+        .entry-content {
+            margin: 1.5em;
+            margin-right: 2em;
+            padding-bottom: 1em;
+            word-wrap: normal;
+
+            header {
+                background-color: #f1fff1;
+            }
+
+            h2 {
+                font-family: 'russo';
+                color: #503656
+            }
+        }
+
+        p, ul {
+            line-height: 1.5;
+        }
+
+        @media only screen and (max-width: 768px) {
+            margin-left: 5.5em;
+            p, ul {
+                font-size: 12px;
+                text-align: justify;
+            }
+        }
+
+        @media only screen and (min-width: 768px) {
+            margin-left: 15%;
+        }
+}
+
+// HOME PAGE STYLE

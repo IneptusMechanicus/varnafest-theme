@@ -6,24 +6,20 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
  *
- * @package Varnafest
+ * @package varnafest
  */
+
+
 
 ?>
 
 	<footer id="colophon" class="site-footer">
+		<?php dynamic_sidebar( 'festivals-list' ); ?>
+		<?php dynamic_sidebar( 'archives-list' ); ?>
+		<?php dynamic_sidebar( 'info-list' ); ?>
 		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'varnafest' ) ); ?>">
-				<?php
-				/* translators: %s: CMS name, i.e. WordPress. */
-				printf( esc_html__( 'Proudly powered by %s', 'varnafest' ), 'WordPress' );
-				?>
-			</a>
-			<span class="sep"> | </span>
-				<?php
-				/* translators: 1: Theme name, 2: Theme author. */
-				printf( esc_html__( 'Theme: %1$s by %2$s.', 'varnafest' ), 'varnafest', '<a href="http://underscores.me/">Underscores.me</a>' );
-				?>
+			<a href="https://wordpress.org/">Proudly powered by WordPress</a>
+			<span class="sep">Theme <a href="https://github.com/Reaper9806/varnafest-theme">varnafest</a> by <a href="https://three-o-three.com">Studio 303</a> </span>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->

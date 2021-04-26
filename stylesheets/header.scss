@@ -1,0 +1,132 @@
+header {
+    display: block;
+    background-color: #ffffff;
+    margin: 0px;
+    width: auto;
+    height: auto;
+
+
+    #primary-menu {
+        list-style-type: none;
+        float:left;
+
+        li {
+            margin-left: 1em;
+            a {
+                text-decoration: none;
+                text-transform: uppercase;
+                color: #000000;
+            }
+        }
+
+        .menu-item:hover {
+            .sub-menu {
+
+            }
+        }
+    }
+
+    #site-navigation {
+            display: block;
+    }
+
+    @media only screen and (max-width: 768px) {
+        padding-bottom: 45px;
+
+        .custom-logo {
+            height: 3em;
+            width: auto;
+            float: left;
+        }
+
+        .mobile-exit {
+            height: 1.5em;
+            width: auto;
+            margin: 0.5em;
+            margin-top: 1em;
+            float:right;
+            cursor: pointer;
+        }
+
+        .mobile-nav {
+            height: 1.5em;
+            width: auto;
+            float: right;
+            margin: 0.5em;
+            cursor: pointer;
+        }
+
+        #primary-menu {
+            display: block;
+
+            .menu-item {
+                margin: 1em;
+            }
+
+            .sub-menu {
+                display: block;
+                position: relative;
+            }
+        }
+
+        .main-navigation {
+            position:fixed;
+            z-index: 999;
+            right:0;
+            top:0;
+            width: 66%;
+            height: 100vh;
+            background-color: #ebfdeb;
+        }
+    }
+
+    @media only screen and (min-width: 768px) {
+        padding-bottom: 70px;
+
+        .custom-logo {
+            height: 5em;
+            width: auto;
+            float: left;
+        }
+
+        .mobile-nav {
+            display: none;
+        }
+
+        .mobile-exit {
+            display: none;
+        }
+
+        #primary-menu {
+            display: flex;
+            margin-top: 1.5em;
+
+            .sub-menu {
+                display: none;
+            }
+        }
+
+        #site-navigation {
+
+            .menu-item:hover {
+
+                .sub-menu {
+                    background-color: #ebfdeb;
+                    z-index: 999;
+                    display: block;
+                    position: absolute;
+                    padding: 0.1em;
+                    border-radius: 5px;
+
+                    li {
+                        display: block;
+                        margin-top: 0.5em;
+                        margin-bottom: 0.5em;
+                        margin-left: 0.3em;
+                        margin-right: 0.3em;
+                    }
+                }
+            }
+        }
+    }
+}
