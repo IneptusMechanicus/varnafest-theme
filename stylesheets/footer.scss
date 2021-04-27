@@ -1,11 +1,15 @@
 footer {
     background-color: #404040;
     color: #ffffff;
-    padding: 5%;
+    padding: 1%;
 
     span {
         display: flex;
-        padding: 2%;
+        padding: 0%;
+
+        a {
+            padding:0px;
+        }
     }
 
     a {

@@ -388,10 +388,12 @@ header {
 footer {
   background-color: #404040;
   color: #ffffff;
-  padding: 5%; }
+  padding: 1%; }
   footer span {
     display: flex;
-    padding: 2%; }
+    padding: 0%; }
+    footer span a {
+      padding: 0px; }
   footer a {
     display: flex;
     color: #ffffff;
