@@ -76,6 +76,8 @@ footer {
     @media only screen and (min-width: 768px) {
         .footer-area {
             display: inline-grid;
+            width: 20%;
+            height: auto;
         }
     }
 }
