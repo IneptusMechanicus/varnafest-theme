@@ -389,24 +389,57 @@ footer {
   background-color: #404040;
   color: #ffffff;
   padding: 1%; }
+  footer .site-info {
+    text-align: center; }
   footer span {
     display: flex;
-    padding: 0%; }
+    padding: 0%;
+    justify-content: center; }
     footer span a {
-      padding: 0px; }
+      padding: 0px;
+      margin-left: 5px;
+      margin-right: 5px; }
   footer a {
-    display: flex;
+    display: inline-block;
     color: #ffffff;
-    padding: 2%; }
+    padding: 10px; }
     footer a:hover {
       background-color: #b2f6b2;
       color: #000000;
       border-radius: 5px; }
-  footer span a {
-    display: inline; }
   footer .footer-area {
-    display: inline-flex; }
+    display: grid;
+    padding: 2%;
+    margin-left: 25px;
+    margin-right: 25px; }
     footer .footer-area h4 {
-      font-family: 'russo'; }
+      font-family: 'russo';
+      letter-spacing: 1px;
+      font-weight: lighter;
+      font-size: 22px; }
+    footer .footer-area a {
+      text-decoration: none;
+      font-size: 16px; }
+    footer .footer-area ul {
+      padding-left: 10%;
+      list-style: none;
+      border-right: 2px solid white;
+      border-color: #ffffff; }
+      footer .footer-area ul li::before {
+        content: "\2022";
+        font-size: 30px;
+        color: #b2f6b2;
+        position: absolute;
+        margin-left: -20px;
+        margin-top: 4px; }
+      footer .footer-area ul li {
+        display: flex;
+        margin-bottom: 4%; }
+  @media only screen and (min-width: 768px) {
+    footer .footer-area {
+      display: inline-grid; } }
+
+.entry-footer {
+  display: inline; }
 
 /*# sourceMappingURL=style.css.map */
