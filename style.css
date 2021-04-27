@@ -144,7 +144,8 @@ header {
   width: 100%;
   margin: 0px;
   scrollbar-width: none;
-  overflow: hidden; }
+  overflow-x: hidden;
+  overflow-y: visible; }
   #post-49 header {
     background: none; }
     #post-49 header h1 {
