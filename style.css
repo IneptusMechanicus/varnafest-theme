@@ -492,19 +492,20 @@ footer {
       justify-content: left; }
       #post-1794 .left-col div .link-button {
         text-align: left;
-        font-size: 90%;
+        font-size: 70%;
         margin-left: 0px; }
     #post-1794 .right-col div {
       width: 50%;
       height: auto;
       margin-left: 50%;
+      margin-top: -50%;
       display: inline-block;
       float: right;
       text-align: right;
       justify-content: right; }
       #post-1794 .right-col div .link-button {
         text-align: right;
-        font-size: 90%;
+        font-size: 70%;
         margin-right: 0px; } }
 
 /*# sourceMappingURL=style.css.map */
