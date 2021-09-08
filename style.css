@@ -498,6 +498,7 @@ footer {
       width: 50%;
       height: auto;
       margin-left: 50%;
+      margin-top: -100%;
       display: inline-block;
       float: right;
       text-align: right;
@@ -505,8 +506,6 @@ footer {
       #post-1794 .right-col div .link-button {
         text-align: right;
         font-size: 90%;
-        margin-right: 0px; }
-    #post-1794 .wizard-main div {
-      margin-top: 100%; } }
+        margin-right: 0px; } }
 
 /*# sourceMappingURL=style.css.map */
