@@ -497,7 +497,7 @@ footer {
       justify-content: left; }
       #post-1794 .left-col div .link-button {
         text-align: left;
-        font-size: 90%;
+        font-size: 84%;
         margin-left: 0px;
         margin-right: 0px; }
     #post-1794 .right-col div {
@@ -509,7 +509,7 @@ footer {
       justify-content: right; }
       #post-1794 .right-col div .link-button {
         text-align: right;
-        font-size: 90%;
+        font-size: 84%;
         margin-right: 0px;
         margin-left: 0px; }
     #post-1794 .wizard-main {
@@ -525,6 +525,8 @@ footer {
       font-size: 4em; }
     #post-1794 h2 {
       font-size: 2.5em; }
+    #post-1794 .link-button {
+      font-size: 100%; }
     #post-1794 .left-col div {
       width: 33%;
       margin-top: -9%; }
