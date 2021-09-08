@@ -484,7 +484,6 @@ footer {
     #post-1794 h2 {
       font-size: 4.5em; }
     #post-1794 .entry-content .left-col {
-      display: grid;
       width: 50%;
       height: auto;
       position: absolute;
@@ -492,7 +491,6 @@ footer {
       #post-1794 .entry-content .left-col div {
         text-align: left; }
     #post-1794 .entry-content .right-col {
-      display: grid;
       width: 50%;
       height: auto;
       position: absolute;
