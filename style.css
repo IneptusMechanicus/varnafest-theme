@@ -517,14 +517,13 @@ footer {
       font-size: 2.5em; }
     #post-1794 .left-col div {
       width: 33%;
-      margin-top: 6%; }
+      margin-top: -9%; }
     #post-1794 .right-col div {
       width: 33%;
-      margin-top: 6%; }
+      margin-top: -9%; }
     #post-1794 .wizard-main {
       width: 33%;
       height: auto;
-      margin: auto;
-      margin-top: -30%; } }
+      margin: auto; } }
 
 /*# sourceMappingURL=style.css.map */
