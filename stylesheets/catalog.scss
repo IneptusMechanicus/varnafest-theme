@@ -87,7 +87,7 @@
         }
     }
 
-    @media only screen and (min-width: 1500px) {
+    @media only screen and (min-width: 1610px) {
         h1 {
             font-size: 4em;
         }
@@ -99,12 +99,22 @@
         .left-col {
             div {
                 width: 33%;
+                margin-top:-20%;
             }
         }
 
         .right-col {
             div {
                 width: 33%;
+                margin-top: -20%;
+            }
+        }
+
+        .wizard-main {
+            div {
+                width: 33%;
+                height: auto;
+                margin-top: -30%;
             }
         }
     }
