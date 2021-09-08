@@ -63,8 +63,11 @@
                     float:left;
                     text-align: left;
                     justify-content: left;
-                }
 
+                    .link-button {
+                        text-align: left;
+                    }
+                }
             }
 
             .right-col {
@@ -76,6 +79,10 @@
                     float:right;
                     text-align: right;
                     justify-content: right;
+
+                    .link-button {
+                        text-align: right;
+                    }
                 }
             }
         }

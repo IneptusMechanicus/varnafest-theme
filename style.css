@@ -491,6 +491,8 @@ footer {
       float: left;
       text-align: left;
       justify-content: left; }
+      #post-1794 .entry-content .left-col div .link-button {
+        text-align: left; }
     #post-1794 .entry-content .right-col div {
       width: 50%;
       height: auto;
@@ -498,6 +500,8 @@ footer {
       position: absolute;
       float: right;
       text-align: right;
-      justify-content: right; } }
+      justify-content: right; }
+      #post-1794 .entry-content .right-col div .link-button {
+        text-align: right; } }
 
 /*# sourceMappingURL=style.css.map */
