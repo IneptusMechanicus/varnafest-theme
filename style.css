@@ -525,14 +525,16 @@ footer {
       font-size: 6em; }
     #post-1794 h2 {
       font-size: 3.3em; }
-    #post-1794 .link-button {
-      font-size: 100%; }
     #post-1794 .left-col div {
       width: 33%;
       margin-top: -12.5%; }
+      #post-1794 .left-col div .link-button {
+        font-size: 95%; }
     #post-1794 .right-col div {
       width: 33%;
       margin-top: -12%; }
+      #post-1794 .right-col div .link-button {
+        font-size: 95%; }
     #post-1794 .wizard-main {
       width: 38%;
       height: auto;

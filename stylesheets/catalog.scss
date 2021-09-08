@@ -124,14 +124,14 @@
             font-size: 3.3em;
         }
 
-        .link-button {
-            font-size: 100%;
-        }
-
         .left-col {
             div {
                 width: 33%;
                 margin-top: -12.5%;
+
+                .link-button {
+                    font-size: 95%;
+                }
             }
         }
 
@@ -139,6 +139,10 @@
             div {
                 width: 33%;
                 margin-top: -12%;
+
+                .link-button {
+                    font-size: 95%;
+                }
             }
         }
 
