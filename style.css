@@ -138,39 +138,39 @@ header {
     .type-page {
       margin-left: 15%; } }
 
-#post-49 {
+#post-49, #post-1861 {
   background: none;
   width: 100%;
   margin: 0px;
   scrollbar-width: none;
   overflow: hidden; }
-  #post-49 header {
+  #post-49 header, #post-1861 header {
     background: none; }
-    #post-49 header h1 {
+    #post-49 header h1, #post-1861 header h1 {
       display: none; }
-  #post-49 .entry-header {
+  #post-49 .entry-header, #post-1861 .entry-header {
     padding: 0px; }
-  #post-49 .entry-content {
+  #post-49 .entry-content, #post-1861 .entry-content {
     margin: 0px;
     padding: 0px;
     margin-left: 10vw;
     margin-right: 10vw;
     align-items: center;
     justify-content: center; }
-  #post-49 .main-sign, #post-49 .side-giff {
+  #post-49 .main-sign, #post-49 .side-giff, #post-1861 .main-sign, #post-1861 .side-giff {
     display: inline; }
-    #post-49 .main-sign img, #post-49 .side-giff img {
+    #post-49 .main-sign img, #post-49 .side-giff img, #post-1861 .main-sign img, #post-1861 .side-giff img {
       width: 60vw;
       height: auto; }
-  #post-49 .fcc-sign img {
+  #post-49 .fcc-sign img, #post-1861 .fcc-sign img {
     width: 90%;
     height: auto;
     margin-left: 5%;
     margin-right: 5%; }
-  #post-49 .wp-block-group__inner-container {
+  #post-49 .wp-block-group__inner-container, #post-1861 .wp-block-group__inner-container {
     width: 100%;
     height: 100%; }
-  #post-49 .main-slider {
+  #post-49 .main-slider, #post-1861 .main-slider {
     display: block;
     overflow-x: auto;
     overflow-y: hidden;
@@ -178,35 +178,35 @@ header {
     height: fit-content;
     width: auto;
     scroll-snap-align: center; }
-    #post-49 .main-slider p {
+    #post-49 .main-slider p, #post-1861 .main-slider p {
       text-align: center; }
-    #post-49 .main-slider a {
+    #post-49 .main-slider a, #post-1861 .main-slider a {
       text-decoration: none;
       color: #ffffff;
       background-color: #de1c00;
       font-weight: bolder;
       padding: 4%;
       border-radius: 6px; }
-    #post-49 .main-slider .wp-block-group__inner-container {
+    #post-49 .main-slider .wp-block-group__inner-container, #post-1861 .main-slider .wp-block-group__inner-container {
       justify-content: center;
       margin-bottom: 6px; }
-  #post-49 ::-webkit-scrollbar {
+  #post-49 ::-webkit-scrollbar, #post-1861 ::-webkit-scrollbar {
     height: 1em; }
-  #post-49 ::-webkit-scrollbar-track {
+  #post-49 ::-webkit-scrollbar-track, #post-1861 ::-webkit-scrollbar-track {
     background: rgba(0, 0, 0, 0); }
-  #post-49 ::-webkit-scrollbar-thumb {
+  #post-49 ::-webkit-scrollbar-thumb, #post-1861 ::-webkit-scrollbar-thumb {
     width: 0.5em;
     background: rgba(0, 0, 0, 0.4); }
-  #post-49 ::-webkit-scrollbar-button {
+  #post-49 ::-webkit-scrollbar-button, #post-1861 ::-webkit-scrollbar-button {
     display: block; }
-  #post-49 .film-strip {
+  #post-49 .film-strip, #post-1861 .film-strip {
     display: inline-block;
     height: 18em;
     width: auto;
     margin: 0px; }
-    #post-49 .film-strip img {
+    #post-49 .film-strip img, #post-1861 .film-strip img {
       height: 18em; }
-  #post-49 .slider-tile {
+  #post-49 .slider-tile, #post-1861 .slider-tile {
     display: inline-flex;
     margin: 0px;
     margin-right: -5px;
@@ -217,39 +217,39 @@ header {
     background-repeat-x: no-repeat;
     background-repeat-y: no-repeat;
     z-index: 5; }
-    #post-49 .slider-tile .wp-block-group__inner-container {
+    #post-49 .slider-tile .wp-block-group__inner-container, #post-1861 .slider-tile .wp-block-group__inner-container {
       background-color: #b2f6b2;
       margin-left: 1em;
       margin-right: 1em;
       margin-top: 2em;
       margin-bottom: 2em;
       border-radius: 9px; }
-    #post-49 .slider-tile .wp-block-image {
+    #post-49 .slider-tile .wp-block-image, #post-1861 .slider-tile .wp-block-image {
       margin: 0px; }
-    #post-49 .slider-tile img {
+    #post-49 .slider-tile img, #post-1861 .slider-tile img {
       width: 90%;
       height: auto;
       margin-left: 5%;
       margin-right: 5%;
       margin-top: 5%; }
-  #post-49 .regulations {
+  #post-49 .regulations, #post-1861 .regulations {
     margin: 0px; }
-    #post-49 .regulations img {
+    #post-49 .regulations img, #post-1861 .regulations img {
       width: 60%;
       height: auto;
       margin-left: 20%;
       margin-right: 20%;
       margin-top: -13%;
       z-index: 0; }
-  #post-49 .regulations-link {
+  #post-49 .regulations-link, #post-1861 .regulations-link {
     position: relative;
     margin-top: -15%;
     z-index: 20;
     text-align: center; }
-    #post-49 .regulations-link p {
+    #post-49 .regulations-link p, #post-1861 .regulations-link p {
       text-align: center;
       justify-content: center; }
-    #post-49 .regulations-link a {
+    #post-49 .regulations-link a, #post-1861 .regulations-link a {
       text-decoration: none;
       color: #ffffff;
       background-color: #de1c00;
@@ -257,17 +257,17 @@ header {
       padding: 2%;
       border-radius: 7px;
       font-size: 100%; }
-  #post-49 .wizard-giff {
+  #post-49 .wizard-giff, #post-1861 .wizard-giff {
     position: relative;
     margin: 0px;
     z-index: 0; }
-    #post-49 .wizard-giff img {
+    #post-49 .wizard-giff img, #post-1861 .wizard-giff img {
       width: 90%;
       height: auto;
       margin-top: -12%; }
-  #post-49 .team-card {
+  #post-49 .team-card, #post-1861 .team-card {
     background-color: #f1fff1; }
-  #post-49 .insert-page {
+  #post-49 .insert-page, #post-1861 .insert-page {
     width: 100vw;
     height: auto;
     background-color: #16524b;
@@ -277,76 +277,76 @@ header {
     padding-bottom: 1%;
     margin-bottom: -16px; }
   @media only screen and (min-width: 768px) {
-    #post-49 .main-sign {
+    #post-49 .main-sign, #post-1861 .main-sign {
       float: left;
       margin: 0px; }
-      #post-49 .main-sign img {
+      #post-49 .main-sign img, #post-1861 .main-sign img {
         height: auto;
         width: 32vw;
         margin-top: 10%; }
-    #post-49 .side-giff {
+    #post-49 .side-giff, #post-1861 .side-giff {
       float: right;
       margin: 0px;
       margin-right: 5%;
       margin-top: 2%; }
-      #post-49 .side-giff img {
+      #post-49 .side-giff img, #post-1861 .side-giff img {
         height: auto;
         width: 17vw; }
-    #post-49 .slider-tile {
+    #post-49 .slider-tile, #post-1861 .slider-tile {
       width: 16em;
       height: auto;
       margin-right: -8px; }
-      #post-49 .slider-tile .wp-block-group__inner-container {
+      #post-49 .slider-tile .wp-block-group__inner-container, #post-1861 .slider-tile .wp-block-group__inner-container {
         margin-left: 1.5em;
         margin-right: 1.5em;
         margin-top: 2.5em;
         margin-bottom: 2.5em; } }
   @media only screen and (min-width: 1080px) {
-    #post-49 .main-sign {
+    #post-49 .main-sign, #post-1861 .main-sign {
       float: left;
       margin-left: 4%; }
-      #post-49 .main-sign img {
+      #post-49 .main-sign img, #post-1861 .main-sign img {
         margin-top: 10%;
         width: 46vw;
         height: auto; }
-    #post-49 .side-giff {
+    #post-49 .side-giff, #post-1861 .side-giff {
       float: right;
       margin-right: 8%; }
-      #post-49 .side-giff img {
+      #post-49 .side-giff img, #post-1861 .side-giff img {
         height: auto;
         width: 22vw; }
-    #post-49 .main-slider {
+    #post-49 .main-slider, #post-1861 .main-slider {
       width: 90%;
       height: auto;
       margin-left: 5%;
       margin-right: 5%; }
-      #post-49 .main-slider .wp-block-group__inner-container {
+      #post-49 .main-slider .wp-block-group__inner-container, #post-1861 .main-slider .wp-block-group__inner-container {
         justify-content: center; }
-    #post-49 .slider-tile {
+    #post-49 .slider-tile, #post-1861 .slider-tile {
       width: 18em;
       height: auto;
       margin-right: -15px; }
-      #post-49 .slider-tile .wp-block-group__inner-container {
+      #post-49 .slider-tile .wp-block-group__inner-container, #post-1861 .slider-tile .wp-block-group__inner-container {
         margin-left: 2em;
         margin-right: 2em;
         margin-top: 3em;
         margin-bottom: 3em; }
-    #post-49 .regulations-link a {
+    #post-49 .regulations-link a, #post-1861 .regulations-link a {
       font-size: 24px; } }
   @media only screen and (min-width: 1575px) {
-    #post-49 .main-slider .wp-block-group__inner-container {
+    #post-49 .main-slider .wp-block-group__inner-container, #post-1861 .main-slider .wp-block-group__inner-container {
       margin-left: 1px; }
-    #post-49 ::-webkit-scrollbar {
+    #post-49 ::-webkit-scrollbar, #post-1861 ::-webkit-scrollbar {
       display: none; }
-    #post-49 .slider-tile {
+    #post-49 .slider-tile, #post-1861 .slider-tile {
       width: 25%;
       height: auto;
       margin: -5px; }
-      #post-49 .slider-tile .wp-block-group__inner-container {
+      #post-49 .slider-tile .wp-block-group__inner-container, #post-1861 .slider-tile .wp-block-group__inner-container {
         width: 90%;
         margin-left: 5%;
         margin-right: 5%; }
-    #post-49 .insert-page {
+    #post-49 .insert-page, #post-1861 .insert-page {
       margin-left: -13%;
       padding-left: 2%; } }
 
