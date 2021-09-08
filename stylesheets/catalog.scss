@@ -36,7 +36,6 @@
             text-decoration: none;
             color: #ffffff;
             background-color: #de1c00;
-            font-weight: bolder;
             padding: 2%;
             border-radius: 7px;
             font-size: 2em;
@@ -52,43 +51,45 @@
             font-size: 2em;
         }
 
-        .entry-content {
-            .left-col {
+        .left-col {
 
-                div {
-                    width: 50%;
-                    height: auto;
-                    margin-right: 50%;
-                    position: absolute;
-                    float:left;
+            div {
+                width: 50%;
+                height: auto;
+                margin-right: 50%;
+                position: absolute;
+                float:left;
+                text-align: left;
+                justify-content: left;
+
+                .link-button {
                     text-align: left;
-                    justify-content: left;
-
-                    .link-button {
-                        text-align: left;
-                        font-size: 90%;
-                        margin-left: 0px;
-                    }
+                    font-size: 90%;
+                    margin-left: 0px;
                 }
             }
+        }
 
-            .right-col {
-                div {
-                    width: 50%;
-                    height: auto;
-                    margin-left: 50%;
-                    position: absolute;
-                    float:right;
+        .right-col {
+            div {
+                width: 50%;
+                height: auto;
+                margin-left: 50%;
+                position: absolute;
+                float:right;
+                text-align: right;
+                justify-content: right;
+
+                .link-button {
                     text-align: right;
-                    justify-content: right;
-
-                    .link-button {
-                        text-align: right;
-                        font-size: 90%;
-                        margin-right: 0px;
-                    }
+                    font-size: 90%;
+                    margin-right: 0px;
                 }
             }
+        }
+
+        .wizard-main {
+            margin-top: 100%;
         }
     }
 }

@@ -474,7 +474,6 @@ footer {
       text-decoration: none;
       color: #ffffff;
       background-color: #de1c00;
-      font-weight: bolder;
       padding: 2%;
       border-radius: 7px;
       font-size: 2em; }
@@ -483,7 +482,7 @@ footer {
       font-size: 7em; }
     #post-1794 h2 {
       font-size: 2em; }
-    #post-1794 .entry-content .left-col div {
+    #post-1794 .left-col div {
       width: 50%;
       height: auto;
       margin-right: 50%;
@@ -491,11 +490,11 @@ footer {
       float: left;
       text-align: left;
       justify-content: left; }
-      #post-1794 .entry-content .left-col div .link-button {
+      #post-1794 .left-col div .link-button {
         text-align: left;
         font-size: 90%;
         margin-left: 0px; }
-    #post-1794 .entry-content .right-col div {
+    #post-1794 .right-col div {
       width: 50%;
       height: auto;
       margin-left: 50%;
@@ -503,9 +502,11 @@ footer {
       float: right;
       text-align: right;
       justify-content: right; }
-      #post-1794 .entry-content .right-col div .link-button {
+      #post-1794 .right-col div .link-button {
         text-align: right;
         font-size: 90%;
-        margin-right: 0px; } }
+        margin-right: 0px; }
+    #post-1794 .wizard-main {
+      margin-top: 100%; } }
 
 /*# sourceMappingURL=style.css.map */
