@@ -448,35 +448,35 @@ footer {
 .entry-footer {
   display: inline; }
 
-#post-1794 {
+#post-1794, #post-2140 {
   background-color: transparent;
   margin: 1%;
   width: 98%;
   height: auto;
   justify-content: center;
   text-align: center; }
-  #post-1794 h1 {
+  #post-1794 h1, #post-2140 h1 {
     color: #ff6a00;
     font-size: 5em; }
-  #post-1794 h2 {
+  #post-1794 h2, #post-2140 h2 {
     color: #efffc9;
     font-family: 'comf-bold';
     font-size: 2.5em; }
-  #post-1794 .entry-header {
+  #post-1794 .entry-header, #post-2140 .entry-header {
     background-color: transparent;
     padding: 0px; }
-  #post-1794 .entry-content {
+  #post-1794 .entry-content, #post-2140 .entry-content {
     width: 95%;
     height: auto;
     margin: auto; }
-  #post-1794 .wizard-main .wizard-giff {
+  #post-1794 .wizard-main .wizard-giff, #post-2140 .wizard-main .wizard-giff {
     margin-top: -100%;
     width: 80%;
     height: auto; }
-  #post-1794 .link-button {
+  #post-1794 .link-button, #post-2140 .link-button {
     text-align: center;
     margin: 5%; }
-    #post-1794 .link-button a {
+    #post-1794 .link-button a, #post-2140 .link-button a {
       text-decoration: none;
       color: #ffffff;
       background-color: #de1c00;
@@ -484,65 +484,65 @@ footer {
       border-radius: 7px;
       font-size: 2em; }
   @media only screen and (min-width: 880px) {
-    #post-1794 h1 {
+    #post-1794 h1, #post-2140 h1 {
       font-size: 7em; }
-    #post-1794 h2 {
+    #post-1794 h2, #post-2140 h2 {
       font-size: 2em; }
-    #post-1794 .left-col div {
+    #post-1794 .left-col div, #post-2140 .left-col div {
       width: 50%;
       height: auto;
       display: inline-block;
       float: left;
       text-align: left;
       justify-content: left; }
-      #post-1794 .left-col div .link-button {
+      #post-1794 .left-col div .link-button, #post-2140 .left-col div .link-button {
         text-align: left;
         font-size: 84%;
         margin-left: 0px;
         margin-right: 0px; }
-    #post-1794 .right-col div {
+    #post-1794 .right-col div, #post-2140 .right-col div {
       width: 50%;
       height: auto;
       display: inline-block;
       float: right;
       text-align: right;
       justify-content: right; }
-      #post-1794 .right-col div .link-button {
+      #post-1794 .right-col div .link-button, #post-2140 .right-col div .link-button {
         text-align: right;
         font-size: 84%;
         margin-right: 0px;
         margin-left: 0px; }
-    #post-1794 .wizard-main {
+    #post-1794 .wizard-main, #post-2140 .wizard-main {
       width: 80%; }
-    #post-1794 .wizard-giff img {
+    #post-1794 .wizard-giff img, #post-2140 .wizard-giff img {
       margin-top: 1.5%;
       margin-left: 12%; }
-    #post-1794 .wiz-shadow img {
+    #post-1794 .wiz-shadow img, #post-2140 .wiz-shadow img {
       margin-top: -1%;
       margin-left: 20%; } }
   @media only screen and (min-width: 1610px) {
-    #post-1794 h1 {
+    #post-1794 h1, #post-2140 h1 {
       font-size: 6em; }
-    #post-1794 h2 {
+    #post-1794 h2, #post-2140 h2 {
       font-size: 3.3em; }
-    #post-1794 .left-col div {
+    #post-1794 .left-col div, #post-2140 .left-col div {
       width: 33%;
       margin-top: -12.5%; }
-      #post-1794 .left-col div .link-button {
+      #post-1794 .left-col div .link-button, #post-2140 .left-col div .link-button {
         font-size: 95%; }
-    #post-1794 .right-col div {
+    #post-1794 .right-col div, #post-2140 .right-col div {
       width: 33%;
       margin-top: -12%; }
-      #post-1794 .right-col div .link-button {
+      #post-1794 .right-col div .link-button, #post-2140 .right-col div .link-button {
         font-size: 95%; }
-    #post-1794 .wizard-main {
+    #post-1794 .wizard-main, #post-2140 .wizard-main {
       width: 38%;
       height: auto;
       margin: auto; }
-    #post-1794 .wizard-giff img {
+    #post-1794 .wizard-giff img, #post-2140 .wizard-giff img {
       margin-top: -50%;
       margin-left: 6%; }
-    #post-1794 .wiz-shadow img {
+    #post-1794 .wiz-shadow img, #post-2140 .wiz-shadow img {
       margin-top: -53.51%;
       margin-left: 16%;
       width: 92%; } }
