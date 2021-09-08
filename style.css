@@ -478,7 +478,7 @@ footer {
       padding: 2%;
       border-radius: 7px;
       font-size: 2em; }
-  @media screen only and (min-width: 768px) {
+  @media only screen and (min-width: 768px) {
     #post-1794 h1 {
       font-size: 7em; }
     #post-1794 h2 {
