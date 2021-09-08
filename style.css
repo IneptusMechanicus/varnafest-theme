@@ -483,21 +483,21 @@ footer {
       font-size: 7em; }
     #post-1794 h2 {
       font-size: 4.5em; }
-    #post-1794 .left-col {
+    #post-1794 .entry-content .left-col {
       display: grid;
       width: 50%;
       height: auto;
       position: absolute;
       float: left; }
-      #post-1794 .left-col div {
+      #post-1794 .entry-content .left-col div {
         text-align: left; }
-    #post-1794 .right-col {
+    #post-1794 .entry-content .right-col {
       display: grid;
       width: 50%;
       height: auto;
       position: absolute;
       float: right; }
-      #post-1794 .right-col div {
+      #post-1794 .entry-content .right-col div {
         text-align: right; } }
 
 /*# sourceMappingURL=style.css.map */

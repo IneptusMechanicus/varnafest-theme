@@ -52,26 +52,28 @@
             font-size: 4.5em;
         }
 
-        .left-col {
-            display: grid;
-            width: 50%;
-            height: auto;
-            position: absolute;
-            float:left;
-            div {
-                text-align: left;
+        .entry-content {
+            .left-col {
+                display: grid;
+                width: 50%;
+                height: auto;
+                position: absolute;
+                float:left;
+                div {
+                    text-align: left;
+                }
+
             }
 
-        }
-
-        .right-col {
-            display: grid;
-            width: 50%;
-            height: auto;
-            position: absolute;
-            float:right;
-            div {
-                text-align: right;
+            .right-col {
+                display: grid;
+                width: 50%;
+                height: auto;
+                position: absolute;
+                float:right;
+                div {
+                    text-align: right;
+                }
             }
         }
     }
