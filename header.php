@@ -45,9 +45,9 @@
 				<p class="site-description"><?php echo $varnafest_description; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></p>
 			<?php endif; ?>
 		</div><!-- .site-branding -->
-		<img id="mobile-nav-btn" src='wp-content/themes/varnafest-theme/theme-images/hamburger-menu.svg' class="mobile-nav"></img>
+		<img id="mobile-nav-btn" src='/wp-content/themes/varnafest-theme/theme-images/hamburger-menu.svg' class="mobile-nav"></img>
 		<nav id="site-navigation" class="main-navigation">
-			<img id="mobile-exit-btn"src="wp-content/themes/varnafest-theme/theme-images/close-menu.svg" class="mobile-exit"> </img>
+			<img id="mobile-exit-btn"src="/wp-content/themes/varnafest-theme/theme-images/close-menu.svg" class="mobile-exit"> </img>
 			<?php
 			wp_nav_menu(
 				array(
