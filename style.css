@@ -283,7 +283,8 @@ header {
       margin: 0px; }
       #post-49 .main-sign img {
         height: auto;
-        width: 32vw; }
+        width: 32vw;
+        margin-top: 10%; }
     #post-49 .side-giff {
       float: right;
       margin: 0px;
@@ -306,6 +307,7 @@ header {
       float: left;
       margin-left: 4%; }
       #post-49 .main-sign img {
+        margin-top: 10%;
         width: 46vw;
         height: auto; }
     #post-49 .side-giff {
