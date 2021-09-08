@@ -20,6 +20,35 @@
         padding: 0px;
     }
 
+    .left-col {
+
+    }
+
+    .right-col {
+
+    }
+
+    .wizard-main {
+        .wizard-giff {
+            margin-top: -100%;
+            width: 80%;
+            height: auto;
+        }
+
+    }
+
+    .link-button {
+        a {
+            text-decoration: none;
+            color: #ffffff;
+            background-color: #de1c00;
+            font-weight: bolder;
+            padding: 2%;
+            border-radius: 7px;
+            font-size: 100%;
+        }
+    }
+
     @media screen only and (min-width: 768px) {
         h1 {
             font-size: 7em;

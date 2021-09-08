@@ -463,6 +463,18 @@ footer {
   #post-1794 .entry-header {
     background-color: transparent;
     padding: 0px; }
+  #post-1794 .wizard-main .wizard-giff {
+    margin-top: -100%;
+    width: 80%;
+    height: auto; }
+  #post-1794 .link-button a {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #de1c00;
+    font-weight: bolder;
+    padding: 2%;
+    border-radius: 7px;
+    font-size: 100%; }
   @media screen only and (min-width: 768px) {
     #post-1794 h1 {
       font-size: 7em; }
