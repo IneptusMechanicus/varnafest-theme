@@ -1,13 +1,26 @@
 #post-1794 {
     background-color: transparent;
+    margin: auto;
 
     h1 {
         color: #ff6a00;
         font-size: 5em;
+        background-color: transparent;
     }
 
     h2 {
         color: #efffc9;
         font-family: 'comf-bold';
+        font-size: 2.5em;
+    }
+
+    @media screen only and (min-width: 768px) {
+        h1 {
+            font-size: 7em;
+        }
+
+        h2 {
+            font-size: 4.5em;
+        }
     }
 }
