@@ -486,7 +486,7 @@ footer {
       width: 50%;
       height: auto;
       margin-right: 50%;
-      position: absolute;
+      display: inline-block;
       float: left;
       text-align: left;
       justify-content: left; }
@@ -498,7 +498,7 @@ footer {
       width: 50%;
       height: auto;
       margin-left: 50%;
-      position: absolute;
+      display: inline-block;
       float: right;
       text-align: right;
       justify-content: right; }
