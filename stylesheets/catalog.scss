@@ -5,13 +5,16 @@
     h1 {
         color: #ff6a00;
         font-size: 5em;
-        background-color: transparent;
     }
 
     h2 {
         color: #efffc9;
         font-family: 'comf-bold';
         font-size: 2.5em;
+    }
+
+    .entry-header {
+        background-color: transparent;
     }
 
     @media screen only and (min-width: 768px) {

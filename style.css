@@ -453,12 +453,13 @@ footer {
   margin: auto; }
   #post-1794 h1 {
     color: #ff6a00;
-    font-size: 5em;
-    background-color: transparent; }
+    font-size: 5em; }
   #post-1794 h2 {
     color: #efffc9;
     font-family: 'comf-bold';
     font-size: 2.5em; }
+  #post-1794 .entry-header {
+    background-color: transparent; }
   @media screen only and (min-width: 768px) {
     #post-1794 h1 {
       font-size: 7em; }
