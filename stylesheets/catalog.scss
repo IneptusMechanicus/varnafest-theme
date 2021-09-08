@@ -54,22 +54,23 @@
 
         .entry-content {
             .left-col {
-                width: 50%;
-                height: auto;
-                position: absolute;
-                float:left;
+
                 div {
+                    width: 50%;
+                    height: auto;
+                    position: absolute;
+                    float:left;
                     text-align: left;
                 }
 
             }
 
             .right-col {
-                width: 50%;
-                height: auto;
-                position: absolute;
-                float:right;
                 div {
+                    width: 50%;
+                    height: auto;
+                    position: absolute;
+                    float:right;
                     text-align: right;
                 }
             }

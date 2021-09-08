@@ -483,19 +483,17 @@ footer {
       font-size: 7em; }
     #post-1794 h2 {
       font-size: 4.5em; }
-    #post-1794 .entry-content .left-col {
+    #post-1794 .entry-content .left-col div {
       width: 50%;
       height: auto;
       position: absolute;
-      float: left; }
-      #post-1794 .entry-content .left-col div {
-        text-align: left; }
-    #post-1794 .entry-content .right-col {
+      float: left;
+      text-align: left; }
+    #post-1794 .entry-content .right-col div {
       width: 50%;
       height: auto;
       position: absolute;
-      float: right; }
-      #post-1794 .entry-content .right-col div {
-        text-align: right; } }
+      float: right;
+      text-align: right; } }
 
 /*# sourceMappingURL=style.css.map */
