@@ -52,20 +52,27 @@
             font-size: 4.5em;
         }
 
-        .left-col div {
+        .left-col {
+            display: grid;
             width: 50%;
             height: auto;
             position: absolute;
             float:left;
-            text-align: left;
+            div {
+                text-align: left;
+            }
+
         }
 
-        .right-col div {
+        .right-col {
+            display: grid;
             width: 50%;
             height: auto;
             position: absolute;
             float:right;
-            text-align: right;
+            div {
+                text-align: right;
+            }
         }
     }
 }
