@@ -26,8 +26,7 @@ header {
   background-color: #ffffff;
   margin: 0px;
   width: auto;
-  height: auto;
-  margin-top: -16px; }
+  height: auto; }
   header #primary-menu {
     list-style-type: none;
     float: left; }
