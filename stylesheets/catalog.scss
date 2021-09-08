@@ -119,9 +119,13 @@
         }
 
         .wizard-main {
-                width: 33%;
-                height: auto;
-                margin:auto;
+            width: 33%;
+            height: auto;
+            margin:auto;
+
+            img {
+                margin-top:-28%;
+            }
         }
     }
 }

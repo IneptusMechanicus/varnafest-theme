@@ -524,6 +524,8 @@ footer {
     #post-1794 .wizard-main {
       width: 33%;
       height: auto;
-      margin: auto; } }
+      margin: auto; }
+      #post-1794 .wizard-main img {
+        margin-top: -28%; } }
 
 /*# sourceMappingURL=style.css.map */
