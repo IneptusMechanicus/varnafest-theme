@@ -483,13 +483,13 @@ footer {
       font-size: 7em; }
     #post-1794 h2 {
       font-size: 4.5em; }
-    #post-1794 .left-col .wp-block-group__inner-container {
+    #post-1794 .left-col div {
       width: 50%;
       height: auto;
       position: absolute;
       float: left;
       text-align: left; }
-    #post-1794 .right-col .wp-block-group__inner-container {
+    #post-1794 .right-col div {
       width: 50%;
       height: auto;
       position: absolute;
