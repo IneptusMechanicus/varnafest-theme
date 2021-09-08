@@ -486,11 +486,13 @@ footer {
     #post-1794 .left-col {
       width: 50%;
       height: auto;
+      position: absolute;
       float: left;
       text-align: left; }
     #post-1794 .right-col {
       width: 50%;
       height: auto;
+      position: absolute;
       float: right;
       text-align: right; } }
 
