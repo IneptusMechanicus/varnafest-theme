@@ -488,12 +488,14 @@ footer {
       height: auto;
       position: absolute;
       float: left;
-      text-align: left; }
+      text-align: left;
+      justify-content: left; }
     #post-1794 .entry-content .right-col div {
       width: 50%;
       height: auto;
       position: absolute;
       float: right;
-      text-align: right; } }
+      text-align: right;
+      justify-content: right; } }
 
 /*# sourceMappingURL=style.css.map */
