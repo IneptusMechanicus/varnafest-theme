@@ -89,7 +89,9 @@
         }
 
         .wizard-main {
-            margin-top: 100%;
+            div {
+                margin-top: 100%;
+            }
         }
     }
 }
