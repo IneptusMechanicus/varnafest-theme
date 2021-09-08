@@ -468,7 +468,8 @@ footer {
     width: 80%;
     height: auto; }
   #post-1794 .link-button {
-    text-align: center; }
+    text-align: center;
+    margin: 5%; }
     #post-1794 .link-button a {
       text-decoration: none;
       color: #ffffff;
@@ -481,6 +482,16 @@ footer {
     #post-1794 h1 {
       font-size: 7em; }
     #post-1794 h2 {
-      font-size: 4.5em; } }
+      font-size: 4.5em; }
+    #post-1794 .left-col {
+      width: 50%;
+      height: auto;
+      float: left;
+      text-align: left; }
+    #post-1794 .right-col {
+      width: 50%;
+      height: auto;
+      float: right;
+      text-align: right; } }
 
 /*# sourceMappingURL=style.css.map */

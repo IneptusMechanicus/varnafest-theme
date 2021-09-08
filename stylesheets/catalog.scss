@@ -20,14 +20,6 @@
         padding: 0px;
     }
 
-    .left-col {
-
-    }
-
-    .right-col {
-
-    }
-
     .wizard-main {
         .wizard-giff {
             margin-top: -100%;
@@ -39,6 +31,7 @@
 
     .link-button {
         text-align: center;
+        margin: 5%;
         a {
             text-decoration: none;
             color: #ffffff;
@@ -57,6 +50,20 @@
 
         h2 {
             font-size: 4.5em;
+        }
+
+        .left-col {
+            width: 50%;
+            height: auto;
+            float:left;
+            text-align: left;
+        }
+
+        .right-col {
+            width: 50%;
+            height: auto;
+            float:right;
+            text-align: right;
         }
     }
 }
