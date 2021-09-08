@@ -467,14 +467,16 @@ footer {
     margin-top: -100%;
     width: 80%;
     height: auto; }
-  #post-1794 .link-button a {
-    text-decoration: none;
-    color: #ffffff;
-    background-color: #de1c00;
-    font-weight: bolder;
-    padding: 2%;
-    border-radius: 7px;
-    font-size: 100%; }
+  #post-1794 .link-button {
+    text-align: center; }
+    #post-1794 .link-button a {
+      text-decoration: none;
+      color: #ffffff;
+      background-color: #de1c00;
+      font-weight: bolder;
+      padding: 2%;
+      border-radius: 7px;
+      font-size: 2em; }
   @media screen only and (min-width: 768px) {
     #post-1794 h1 {
       font-size: 7em; }
