@@ -486,6 +486,7 @@ footer {
     #post-1794 .entry-content .left-col div {
       width: 50%;
       height: auto;
+      margin-right: 50%;
       position: absolute;
       float: left;
       text-align: left;
@@ -493,6 +494,7 @@ footer {
     #post-1794 .entry-content .right-col div {
       width: 50%;
       height: auto;
+      margin-left: 50%;
       position: absolute;
       float: right;
       text-align: right;
