@@ -52,7 +52,7 @@
             font-size: 4.5em;
         }
 
-        .left-col {
+        .left-col .wp-block-group__inner-container {
             width: 50%;
             height: auto;
             position: absolute;
@@ -60,7 +60,7 @@
             text-align: left;
         }
 
-        .right-col {
+        .right-col .wp-block-group__inner-container {
             width: 50%;
             height: auto;
             position: absolute;
